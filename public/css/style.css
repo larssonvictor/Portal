@@ -1,0 +1,15 @@
+.potrait-link{
+	/*margin-top: 40vh !important; 
+	margin-left: auto !important;
+	margin-right: auto !important;
+	margin-bottom: 0vh !important;*/
+	margin: 30vh auto 0vh auto !important; 
+}
+
+.description-card{
+	/*display: none !important;*/
+}
+
+.title-container{
+	margin-top: 5vh;
+}
