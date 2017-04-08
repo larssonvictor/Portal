@@ -1,16 +1,18 @@
 // $('.description-card-first').transition();
 $(document).ready(function() {
-	// $('.jiggle.images .image')
-	//   .transition({
-	//     animation : 'jiggle',
-	//     duration  : 800,
-	//     interval  : 200
-	//   });
+	$('.icon-container')
+	  .transition({
+	    animation : 'fade up',
+	    duration  : 2000,
+	    interval  : 200
+	  });
 	
-
+	$('.page-title').transition();
 
 	$('.first').hover(function(){
-		$('.description-card-first').transition();
+		$('.description-card-first').transition({
+			duration: 500
+		});
 	});
 
 	$('.second').hover(function(){
@@ -22,3 +24,7 @@ $(document).ready(function() {
 	});
 
 });
+
+function fadeInTitle() {
+	
+}

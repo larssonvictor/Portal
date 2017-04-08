@@ -1,3 +1,16 @@
+/*html { 
+  background: url(../img/office-blur.png) no-repeat center center fixed !important; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
+body{
+    background-image: url('../img/office-blur.png') !important;
+    background-size: cover !important;
+}
+
 .potrait-link{
 	/*margin-top: 40vh !important; 
 	margin-left: auto !important;
@@ -12,4 +25,11 @@
 
 .title-container{
 	margin-top: 5vh;
+}
+
+.segment{
+	/*opacity: 0.5 !important;*/
+	background: rgba(255,255,255, 0) !important; 
+	border: none !important;
+	box-shadow: none !important;
 }
